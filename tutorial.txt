@@ -1,0 +1,14 @@
+yarn add -D typescript @types/react @types/node //adicionar typescript em projeto que não tem
+yarn add -D eslint
+yarn add -D eslint-plugin-react
+adicionar obj settings com obj react com a version "detected" no eslintrc.json
+yarn add -D eslint-plugin-react-hooks
+adicionar seguintes regras
+----
+"react/prop-types": "off",  //regra de desativar prop types ja que estamos trabalhando com typescript
+"react/react-in-jsx-scope": "off",
+"@typescript-eslint/explicit-module-boundary-types": "off" //não precisar tipar todos os retornos de funções
+----
+yarn add prettier
+yarn add -D eslint-plugin-prettier eslint-config-prettier
+yarn add sass
